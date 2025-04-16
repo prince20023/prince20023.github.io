@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenley - Travis's Cat Family</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="tenley-theme">
+    <div class="container-fluid main-container">
+        <!-- Header -->
+        <header class="row" id="header">
+            <div class="col-12">
+                <h1>Travis's Cat Family</h1>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="maxwell.html">Maxwell</a></li>
+                        <li><a href="tenley.html" class="active">Tenley</a></li>
+                        <li><a href="mona.html">Mona</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="row content-row">
+            <!-- Sidebar -->
+            <aside class="col-md-3" id="sidebar">
+                <h3>Meet The Cats</h3>
+                <div class="cat-nav">
+                    <div class="cat-item" style="border-color: #8B0000;">
+                        <img src="images/maxwell8.jpg" alt="Maxwell" class="img-fluid">
+                        <a href="maxwell.html">Maxwell</a>
+                    </div>
+                    <div class="cat-item active" style="border-color: #8B4513;">
+                        <img src="images/tenley11.jpg" alt="Tenley" class="img-fluid">
+                        <a href="tenley.html">Tenley</a>
+                    </div>
+                    <div class="cat-item" style="border-color: #8B008B;">
+                        <img src="images/mona11.jpg" alt="Mona" class="img-fluid">
+                        <a href="mona.html">Mona</a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-md-9" id="main-content">
+                <div class="bio-container">
+                    <h2>Tenley</h2>
+                    
+                    <!-- Bootstrap Carousel -->
+                    <div id="tenleyCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#tenleyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#tenleyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#tenleyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/tenley11.jpg" class="d-block w-100 carousel-image" alt="Tenley">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Tenley</h5>
+                                    <p>Tenley relaxing at home</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/tenley2.jpg" class="d-block w-100 carousel-image" alt="Tenley playing">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Playful Tenley</h5>
+                                    <p>Tenley enjoying playtime</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/tenley3.jpg" class="d-block w-100 carousel-image" alt="Tenley sleeping">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sleepy Tenley</h5>
+                                    <p>Tenley taking a nap</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#tenleyCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#tenleyCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                    <div class="bio-content">
+                        <p>"Tenley is the cat most recently adopted into my home, and she was about a year old when I got her. She's around 4 years old now the time sure does fly. After I lost Maxwell, I volunteered at the local animal shelter to help all the kitties who didn't have a home, and every morning when I walked into that room, she came up to me and was super affectionate and interested. I knew immediately: I would adopt this cat!</p>
+                        
+                        <p>She took no time to get adjusted to my home, and is one of the sweetest cats I've ever met. She loves to cuddle and be petted, and never runs out of energy. Her favorite thing to do is carry her fishing rod around at 3AM and meow looking for attention.</p>
+                        
+                        <p>Her and Mona don't get along extremely well, in part because of a clash of personalities. Tenley is very active and outgoing and full of energy, so with a more anxious cat, it just doesn't work well. But overall they've learned to co-exist without issue, so it's fine."</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="row" id="footer">
+            <div class="col-12">
+                <p>&copy; 2025 Created by Prince Meel. Images supplied by Travis Cattington.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

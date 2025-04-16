@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona - Travis's Cat Family</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mona-theme">
+    <div class="container-fluid main-container">
+        <!-- Header -->
+        <header class="row" id="header">
+            <div class="col-12">
+                <h1>Travis's Cat Family</h1>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="maxwell.html">Maxwell</a></li>
+                        <li><a href="tenley.html">Tenley</a></li>
+                        <li><a href="mona.html" class="active">Mona</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="row content-row">
+            <!-- Sidebar -->
+            <aside class="col-md-3" id="sidebar">
+                <h3>Meet The Cats</h3>
+                <div class="cat-nav">
+                    <div class="cat-item" style="border-color: #8B0000;">
+                        <img src="images/maxwell8.jpg" alt="Maxwell" class="img-fluid">
+                        <a href="maxwell.html">Maxwell</a>
+                    </div>
+                    <div class="cat-item" style="border-color: #8B4513;">
+                        <img src="images/tenley11.jpg" alt="Tenley" class="img-fluid">
+                        <a href="tenley.html">Tenley</a>
+                    </div>
+                    <div class="cat-item active" style="border-color: #8B008B;">
+                        <img src="images/mona11.jpg" alt="Mona" class="img-fluid">
+                        <a href="mona.html">Mona</a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-md-9" id="main-content">
+                <div class="bio-container">
+                    <h2>Mona</h2>
+                    
+                    <!-- Bootstrap Carousel -->
+                    <div id="monaCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#monaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#monaCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#monaCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/mona11.jpg" class="d-block w-100 carousel-image" alt="Mona">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Mona</h5>
+                                    <p>Mona relaxing at home</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/mona2.jpg" class="d-block w-100 carousel-image" alt="Mona playing">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Playful Mona</h5>
+                                    <p>Mona enjoying playtime</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/mona3.jpg" class="d-block w-100 carousel-image" alt="Mona sleeping">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sleepy Mona</h5>
+                                    <p>Mona taking a nap</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#monaCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#monaCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                    <div class="bio-content">
+                        <p>"Mona is my sweet little weirdo – she is about 6 years old now. At first glance, she seems like a tough cat to love: always on edge, anxious, shy, and seems to not like being touched. But she just takes some time to warm up, and once she does, she will jump up on your desk and rub against you for hours, not leaving until you give her just the right amount of attention.</p>
+                        
+                        <p>She is extremely talkative, always meowing wherever she goes. She's also a bit of a brat when it comes to the litter box – imagine not flushing the toilet, that's her! Her name is actually based on the cat Morgana from Persona 5, a game my girlfriend at the time and I were playing together. It was her idea to name Mona, and it stuck!</p>
+                        
+                        <p>Despite her being a bit of a brat, she's always been there for me, and I look forward to having her be a little pest for the years to come!"</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="row" id="footer">
+            <div class="col-12">
+                <p>&copy; 2025 Created by Kartik Singh. Images supplied by Travis Cattington.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
